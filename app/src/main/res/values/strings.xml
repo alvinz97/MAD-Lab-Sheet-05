@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LabSheet05</string>
+    <string name="broadcastReceiverText">Broadcast Receiver 1</string>
+    <string name="broadcastBtn">Start Broadcast</string>
 </resources>

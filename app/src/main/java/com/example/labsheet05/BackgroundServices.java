@@ -14,7 +14,7 @@ public class BackgroundServices extends IntentService {
         super("BackgroundServices");
     }
 
-    public static void startAction(Context context){
+    public static void startAction(Context context, Context applicationContext){
         Intent intent = new Intent(context, BackgroundServices.class);
         context.startActivity(intent);
     }
